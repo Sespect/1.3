@@ -2,7 +2,7 @@ using System;
 using System.IO;
 class Program {
   public static void Main (string[] args) {
-    string[] numbers = File.ReadAllText("nums.txt").Split(' ');
+    string[] numbers = File.ReadAllText("nums1.txt").Split(' ');
     int[] height = Array.ConvertAll(numbers, int.Parse);
     int maxArea = 0;
     int left = 0;
